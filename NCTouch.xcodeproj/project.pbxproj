@@ -15,7 +15,6 @@
 		A5FEB4E818ADA94A00945FFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FEB4E718ADA94A00945FFC /* main.m */; };
 		A5FEB4EC18ADA94A00945FFC /* NCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FEB4EB18ADA94A00945FFC /* NCAppDelegate.m */; };
 		A5FEB4EF18ADA94A00945FFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5FEB4ED18ADA94A00945FFC /* Main.storyboard */; };
-		A5FEB4F218ADA94A00945FFC /* NCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FEB4F118ADA94A00945FFC /* NCViewController.m */; };
 		A5FEB4F918ADA94A00945FFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5FEB4F818ADA94A00945FFC /* Images.xcassets */; };
 		A5FEB50018ADA94A00945FFC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FEB4FF18ADA94A00945FFC /* XCTest.framework */; };
 		A5FEB50118ADA94A00945FFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FEB4D918ADA94A00945FFC /* Foundation.framework */; };
@@ -23,7 +22,12 @@
 		A5FEB50A18ADA94A00945FFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5FEB50818ADA94A00945FFC /* InfoPlist.strings */; };
 		A5FEB50C18ADA94A00945FFC /* NCTouchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FEB50B18ADA94A00945FFC /* NCTouchTests.m */; };
 		A5FEB51D18ADC2B000945FFC /* NCMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FEB51A18ADC2B000945FFC /* NCMyScene.m */; };
-		A5FEB51E18ADC2B000945FFC /* NCShareScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FEB51C18ADC2B000945FFC /* NCShareScene.m */; };
+		A5FEB52818ADE97900945FFC /* NCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FEB52618ADE97900945FFC /* NCViewController.m */; };
+		A5FEB52F18ADEAE100945FFC /* RUShareBubbles.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FEB52E18ADEAE100945FFC /* RUShareBubbles.m */; };
+		A5FEB53718ADEF0E00945FFC /* icon-aa-twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = A5FEB53518ADEF0E00945FFC /* icon-aa-twitter.png */; };
+		A5FEB53818ADEF0E00945FFC /* icon-aa-twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5FEB53618ADEF0E00945FFC /* icon-aa-twitter@2x.png */; };
+		A5FEB53B18ADFB9A00945FFC /* NCPlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FEB53A18ADFB9A00945FFC /* NCPlayScene.m */; };
+		A5FEB54118AE0A1A00945FFC /* NCShareScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FEB54018AE0A1A00945FFC /* NCShareScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +53,6 @@
 		A5FEB4EA18ADA94A00945FFC /* NCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NCAppDelegate.h; sourceTree = "<group>"; };
 		A5FEB4EB18ADA94A00945FFC /* NCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCAppDelegate.m; sourceTree = "<group>"; };
 		A5FEB4EE18ADA94A00945FFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A5FEB4F018ADA94A00945FFC /* NCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NCViewController.h; sourceTree = "<group>"; };
-		A5FEB4F118ADA94A00945FFC /* NCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCViewController.m; sourceTree = "<group>"; };
 		A5FEB4F818ADA94A00945FFC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A5FEB4FE18ADA94A00945FFC /* NCTouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NCTouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5FEB4FF18ADA94A00945FFC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -59,8 +61,16 @@
 		A5FEB50B18ADA94A00945FFC /* NCTouchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCTouchTests.m; sourceTree = "<group>"; };
 		A5FEB51918ADC2B000945FFC /* NCMyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NCMyScene.h; path = NCScene/NCMyScene.h; sourceTree = "<group>"; };
 		A5FEB51A18ADC2B000945FFC /* NCMyScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NCMyScene.m; path = NCScene/NCMyScene.m; sourceTree = "<group>"; };
-		A5FEB51B18ADC2B000945FFC /* NCShareScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NCShareScene.h; path = NCScene/NCShareScene.h; sourceTree = "<group>"; };
-		A5FEB51C18ADC2B000945FFC /* NCShareScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NCShareScene.m; path = NCScene/NCShareScene.m; sourceTree = "<group>"; };
+		A5FEB52518ADE97900945FFC /* NCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NCViewController.h; path = NCTouch/NCViewController/NCViewController.h; sourceTree = "<group>"; };
+		A5FEB52618ADE97900945FFC /* NCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NCViewController.m; path = NCTouch/NCViewController/NCViewController.m; sourceTree = "<group>"; };
+		A5FEB52D18ADEAE100945FFC /* RUShareBubbles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RUShareBubbles.h; path = NCUI/RUShareBubbles.h; sourceTree = "<group>"; };
+		A5FEB52E18ADEAE100945FFC /* RUShareBubbles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RUShareBubbles.m; path = NCUI/RUShareBubbles.m; sourceTree = "<group>"; };
+		A5FEB53518ADEF0E00945FFC /* icon-aa-twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-aa-twitter.png"; path = "Resource/icon-aa-twitter.png"; sourceTree = "<group>"; };
+		A5FEB53618ADEF0E00945FFC /* icon-aa-twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-aa-twitter@2x.png"; path = "Resource/icon-aa-twitter@2x.png"; sourceTree = "<group>"; };
+		A5FEB53918ADFB9A00945FFC /* NCPlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NCPlayScene.h; path = NCScene/NCPlayScene.h; sourceTree = "<group>"; };
+		A5FEB53A18ADFB9A00945FFC /* NCPlayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NCPlayScene.m; path = NCScene/NCPlayScene.m; sourceTree = "<group>"; };
+		A5FEB53F18AE0A1A00945FFC /* NCShareScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NCShareScene.h; path = NCScene/NCShareScene.h; sourceTree = "<group>"; };
+		A5FEB54018AE0A1A00945FFC /* NCShareScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NCShareScene.m; path = NCScene/NCShareScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +101,6 @@
 		A5FEB4CD18ADA94A00945FFC = {
 			isa = PBXGroup;
 			children = (
-				A5FEB51818ADC28700945FFC /* NCScene */,
 				A5FEB4E118ADA94A00945FFC /* NCTouch */,
 				A5FEB50518ADA94A00945FFC /* NCTouchTests */,
 				A5FEB4D818ADA94A00945FFC /* Frameworks */,
@@ -123,11 +132,13 @@
 		A5FEB4E118ADA94A00945FFC /* NCTouch */ = {
 			isa = PBXGroup;
 			children = (
+				A5FEB53018ADEB4D00945FFC /* Resource */,
+				A5FEB52918ADEA6A00945FFC /* NCUI */,
+				A5FEB52218ADE8BE00945FFC /* NCViewController */,
+				A5FEB51818ADC28700945FFC /* NCScene */,
 				A5FEB4EA18ADA94A00945FFC /* NCAppDelegate.h */,
 				A5FEB4EB18ADA94A00945FFC /* NCAppDelegate.m */,
 				A5FEB4ED18ADA94A00945FFC /* Main.storyboard */,
-				A5FEB4F018ADA94A00945FFC /* NCViewController.h */,
-				A5FEB4F118ADA94A00945FFC /* NCViewController.m */,
 				A5FEB4F818ADA94A00945FFC /* Images.xcassets */,
 				A5FEB4E218ADA94A00945FFC /* Supporting Files */,
 			);
@@ -168,11 +179,40 @@
 			children = (
 				A5FEB51918ADC2B000945FFC /* NCMyScene.h */,
 				A5FEB51A18ADC2B000945FFC /* NCMyScene.m */,
-				A5FEB51B18ADC2B000945FFC /* NCShareScene.h */,
-				A5FEB51C18ADC2B000945FFC /* NCShareScene.m */,
+				A5FEB53918ADFB9A00945FFC /* NCPlayScene.h */,
+				A5FEB53A18ADFB9A00945FFC /* NCPlayScene.m */,
+				A5FEB53F18AE0A1A00945FFC /* NCShareScene.h */,
+				A5FEB54018AE0A1A00945FFC /* NCShareScene.m */,
 			);
 			name = NCScene;
-			path = NCTouch;
+			sourceTree = "<group>";
+		};
+		A5FEB52218ADE8BE00945FFC /* NCViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A5FEB52518ADE97900945FFC /* NCViewController.h */,
+				A5FEB52618ADE97900945FFC /* NCViewController.m */,
+			);
+			name = NCViewController;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A5FEB52918ADEA6A00945FFC /* NCUI */ = {
+			isa = PBXGroup;
+			children = (
+				A5FEB52D18ADEAE100945FFC /* RUShareBubbles.h */,
+				A5FEB52E18ADEAE100945FFC /* RUShareBubbles.m */,
+			);
+			name = NCUI;
+			sourceTree = "<group>";
+		};
+		A5FEB53018ADEB4D00945FFC /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A5FEB53518ADEF0E00945FFC /* icon-aa-twitter.png */,
+				A5FEB53618ADEF0E00945FFC /* icon-aa-twitter@2x.png */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +297,8 @@
 			files = (
 				A5FEB4E618ADA94A00945FFC /* InfoPlist.strings in Resources */,
 				A5FEB4F918ADA94A00945FFC /* Images.xcassets in Resources */,
+				A5FEB53718ADEF0E00945FFC /* icon-aa-twitter.png in Resources */,
+				A5FEB53818ADEF0E00945FFC /* icon-aa-twitter@2x.png in Resources */,
 				A5FEB4EF18ADA94A00945FFC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,11 +318,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5FEB4F218ADA94A00945FFC /* NCViewController.m in Sources */,
 				A5FEB4E818ADA94A00945FFC /* main.m in Sources */,
-				A5FEB51E18ADC2B000945FFC /* NCShareScene.m in Sources */,
 				A5FEB4EC18ADA94A00945FFC /* NCAppDelegate.m in Sources */,
+				A5FEB52F18ADEAE100945FFC /* RUShareBubbles.m in Sources */,
+				A5FEB54118AE0A1A00945FFC /* NCShareScene.m in Sources */,
 				A5FEB51D18ADC2B000945FFC /* NCMyScene.m in Sources */,
+				A5FEB52818ADE97900945FFC /* NCViewController.m in Sources */,
+				A5FEB53B18ADFB9A00945FFC /* NCPlayScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

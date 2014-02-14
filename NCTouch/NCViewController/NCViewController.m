@@ -22,10 +22,8 @@
 	if (!skView.scene) {
 		skView.showsFPS = YES;
 		skView.showsNodeCount = YES;
-		
-		SKScene *scene = [NCMyScene sceneWithSize:skView.bounds.size];
+		NCMyScene *scene = [NCMyScene sceneWithSize:skView.bounds.size];
 		scene.scaleMode = SKSceneScaleModeAspectFill;
-		
 		[skView presentScene:scene];
 	}
 }
